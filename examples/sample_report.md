@@ -4,7 +4,7 @@
 
 **Fecha del reporte:** Ejemplo ilustrativo.
 
-**Perfil analizado:** Profesional con formación en Programación e Ingeniería de Datos, experiencia en desarrollo de software y proyectos personales de procesamiento de datos.
+**Perfil analizado:** Profesional con formación en Programación y Química, experiencia laboral en desarrollo de software y proyectos personales de Ingeniería de Datos.
 
 ## 1. Ingeniería de Datos
 
@@ -15,15 +15,18 @@
 - **Modalidad:** Remota.
 - **Experiencia requerida:** Junior.
 - **Compatibilidad estimada:** 85%.
+- **Fecha de publicación:** Ejemplo ficticio.
 - **Salario:** No informado.
 
 **Fortalezas identificadas:**
+
 - Conocimientos de Python.
-- Experiencia con SQL.
+- Experiencia con SQL y bases de datos relacionales.
 - Formación en Ingeniería de Datos.
-- Proyectos personales con PostgreSQL y Docker.
+- Proyectos personales con PostgreSQL, Docker, Kafka y Airflow.
 
 **Brechas identificadas:**
+
 - No se demuestra experiencia profesional específica como Data Engineer.
 - Se solicita experiencia adicional con herramientas cloud.
 
@@ -40,15 +43,19 @@
 - **Modalidad:** Remota.
 - **Experiencia requerida:** Semi Senior.
 - **Compatibilidad estimada:** 90%.
+- **Fecha de publicación:** Ejemplo ficticio.
 - **Salario:** No informado.
 
 **Fortalezas identificadas:**
-- Experiencia en desarrollo de software.
+
+- Experiencia laboral en desarrollo de software.
 - Conocimientos de .NET y C#.
-- Experiencia con bases de datos y SQL.
-- Conocimientos de APIs y frontend.
+- Experiencia con bases de datos SQL.
+- Desarrollo e integración de APIs REST.
+- Conocimientos de frontend con React.
 
 **Brechas identificadas:**
+
 - Se solicita experiencia adicional con tecnologías que no aparecen en el perfil de referencia.
 
 **Resultado:** Oportunidad potencialmente compatible.
@@ -57,7 +64,7 @@
 
 ## 3. Resumen del análisis
 
-| Indicador | Resultado |
+| **Indicador** | **Resultado** |
 |---|---:|
 | Ofertas analizadas | 2 |
 | Categorías evaluadas | 2 |
@@ -66,7 +73,9 @@
 
 ## 4. Observaciones
 
-Este ejemplo demuestra cómo el agente organiza las oportunidades, compara requisitos con conocimientos existentes e identifica fortalezas y brechas.
+Este ejemplo demuestra cómo el agente organiza las oportunidades, compara los requisitos de cada puesto con el perfil profesional y diferencia la experiencia laboral de los proyectos personales.
+
+También permite identificar fortalezas, brechas y compatibilidad estimada para facilitar la evaluación de cada oportunidad.
 
 Los porcentajes son estimaciones ilustrativas y no resultados de una búsqueda real.
 
