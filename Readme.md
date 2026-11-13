@@ -1,77 +1,115 @@
 # AI IT Job Search Agent
 
-**An AI-powered job search assistant designed and configured using ChatGPT.**
+Prototipo de agente de búsqueda laboral IT diseñado y configurado mediante ChatGPT.
 
-## Overview
+El proyecto tiene como objetivo automatizar la búsqueda, evaluación y organización de oportunidades laborales de acuerdo con un perfil profesional definido.
 
-AI IT Job Search Agent is a personal AI assistant designed to automate the search, analysis, and classification of IT job opportunities.
+## Objetivo
 
-The prototype was built using ChatGPT, combining carefully designed prompts, personalized search criteria, and scheduled automation.
+Facilitar la búsqueda de empleo mediante un flujo automatizado que permita identificar ofertas relevantes, evaluar su compatibilidad con el perfil del candidato y enviar un reporte diario por correo electrónico.
 
-The goal is to reduce the time spent searching for jobs and identify opportunities that better match a professional profile.
+## ¿Cómo funciona?
 
-## Main Features
+El agente utiliza las funcionalidades de ChatGPT para:
 
-- **Automated job search:** Searches multiple job platforms and company career pages.
-- **AI-powered job matching:** Evaluates compatibility between professional profiles and job requirements.
-- **Personalized filters:** Considers experience level, location, remote work, and publication date.
-- **Duplicate detection:** Identifies repeated job postings.
-- **Daily automation:** Runs scheduled searches.
-- **Automated reporting:** Organizes relevant opportunities with links and compatibility assessments.
+1. Buscar oportunidades laborales en diferentes portales y sitios oficiales de empresas.
+2. Identificar ofertas relacionadas con el perfil profesional configurado.
+3. Evaluar la compatibilidad de cada oportunidad.
+4. Filtrar por ubicación, modalidad de trabajo, seniority y antigüedad de publicación.
+5. Detectar y evitar ofertas duplicadas.
+6. Organizar los resultados según su nivel de compatibilidad.
+7. Enviar un único reporte diario por correo electrónico.
 
-## How It Works
+## Perfil profesional de referencia
 
-1. A professional profile and job search criteria are defined.
-2. ChatGPT searches for relevant job opportunities.
-3. The AI analyzes each opportunity against the defined profile.
-4. Results are filtered, classified, and checked for duplicates.
-5. A daily report is prepared with the most relevant opportunities.
+El agente está configurado para buscar oportunidades acordes a un perfil con formación y experiencia en:
 
-## Technologies and Tools
+- Desarrollo de software, frontend y aplicaciones web.
+- React, JavaScript, C#, .NET y APIs REST.
+- SQL Server, bases de datos relacionales y optimización de consultas.
+- Formación en Ingeniería de Datos.
+- Proyectos personales con Python, PostgreSQL, Docker, Kafka, Airflow y procesos ETL/ELT.
+- Formación técnica en Programación y Química.
 
-- ChatGPT
-- Generative Artificial Intelligence
-- Prompt Engineering
-- Web Search
-- Task Automation
+Los proyectos personales de Ingeniería de Datos se consideran experiencia práctica y formativa, no experiencia laboral profesional en esa especialidad.
 
-## Architecture
+## Categorías de búsqueda
 
-This is a ChatGPT-based prototype. Search, analysis, and scheduled execution rely on ChatGPT capabilities.
+### Ingeniería de Datos
 
-It is not a standalone application and does not currently include a custom backend, database, or independent API integration.
+- Data Engineer Junior.
+- ETL / ELT Developer.
+- Python / SQL Developer.
+- Data Integration.
+- Bases de datos y procesamiento de datos.
+- Data Warehousing y pipelines.
 
-## Project Status
+### Desarrollo de Software
 
-**Prototype implemented using ChatGPT.**
+- Software Developer Semi Senior.
+- .NET / C# Developer.
+- Backend Developer.
+- Frontend Developer.
+- Full Stack Developer.
+- Desarrollo de APIs.
 
-The project demonstrates the practical application of generative AI, prompt engineering, workflow design, and task automation to solve a real-world problem.
+## Criterios de selección
 
----
+- Ofertas publicadas dentro de los últimos 15 días.
+- Publicaciones activas y verificables.
+- Oportunidades presenciales, híbridas o remotas en San Francisco y localidades cercanas.
+- Para otras localidades de Argentina, únicamente posiciones 100 % remotas que permitan trabajar desde cualquier provincia.
+- Para oportunidades internacionales, contratación habilitada para residentes en Argentina.
+- Evaluación de compatibilidad entre 0 y 100 %, con fortalezas y brechas identificadas.
 
-# AI IT Job Search Agent (Español)
+## Automatización
 
-## Descripción
+La búsqueda está configurada para ejecutarse diariamente a las **05:00 (hora de Argentina)** mediante las tareas programadas de ChatGPT.
 
-Agente personal de inteligencia artificial diseñado y configurado mediante ChatGPT para automatizar la búsqueda, análisis y clasificación de oportunidades laborales IT.
+El sistema prepara un único correo diario con las oportunidades nuevas encontradas, organizadas por categoría y nivel de compatibilidad.
 
-El proyecto utiliza instrucciones personalizadas, criterios de búsqueda y automatizaciones programadas para identificar oportunidades compatibles con un perfil profesional.
+También contempla el envío de un aviso cuando no se detectan nuevas oportunidades relevantes.
 
-## Funcionalidades
+## Estructura del repositorio
 
-- Búsqueda automatizada en diferentes portales laborales.
-- Evaluación de compatibilidad entre el perfil profesional y los requisitos de cada puesto.
-- Filtros por experiencia, ubicación, modalidad y antigüedad de publicación.
-- Identificación de ofertas duplicadas.
-- Ejecución programada de búsquedas diarias.
-- Preparación de reportes con oportunidades relevantes.
+```text
+ai-it-job-search-agent/
+│
+├── README.md
+│
+├── docs/
+│   ├── agent-design.md
+│   └── workflow.md
+│
+├── prompts/
+│   └── job_search_agent.md
+│
+├── examples/
+│   └── sample_report.md
+│
+└── automatizacion-chatgpt.png
+```
 
-## Tecnologías y herramientas
+## Herramientas utilizadas
 
-ChatGPT, Inteligencia Artificial Generativa, Prompt Engineering, búsqueda web y automatización de tareas.
+- ChatGPT.
+- Tareas programadas de ChatGPT.
+- Búsqueda web.
+- Gmail para la entrega de reportes.
+- Git y GitHub para documentar y versionar el proyecto.
 
-## Estado del proyecto
+## Alcance del proyecto
 
-Prototipo implementado utilizando las funcionalidades de ChatGPT. No constituye actualmente una aplicación independiente ni cuenta con un backend propio.
+Este repositorio documenta el diseño, las instrucciones, los criterios de búsqueda y el flujo de funcionamiento de un prototipo de agente implementado mediante ChatGPT.
 
-**Autor:** Paolo Gamarra
+No es una aplicación independiente ni una integración desarrollada mediante una API propia. La interpretación de instrucciones, las búsquedas, el análisis y la automatización se realizan utilizando las funcionalidades disponibles en ChatGPT.
+
+## Evidencia de configuración
+
+La siguiente captura muestra la configuración de la automatización en ChatGPT:
+
+![Automatización configurada en ChatGPT](automatizacion-chatgpt.png)
+
+## Autor
+
+Proyecto personal de experimentación y aplicación práctica de Inteligencia Artificial en la automatización de procesos de búsqueda laboral.
